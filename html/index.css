@@ -1,0 +1,54 @@
+﻿body{
+ margin:middle middle;
+ padding: 150px;
+}
+#space{
+	float:left;
+	margin:30% left
+}
+#space p{
+	color: #000;
+}
+.flickr-loader {
+  position: relative;
+  width: 110px;
+  height: 50px;
+  background: #000;
+  float:left;
+}
+
+.dot-red,
+.dot-green {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  animation: 2s ease-in-out infinite;
+}
+
+.dot-red {
+  background: #ff0000;
+  left: 0;
+  animation-name: red;
+}
+
+.dot-green {
+ background: #00ff00;
+ right: 0;
+ animation-name: green;
+}
+
+@keyframes red {
+  0% {
+    z-index: 1;
+  }
+ 50% {
+    left:50px;
+  }
+}
+@keyframes green {
+  50% {
+    right:50px;
+  }
+}

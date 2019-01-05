@@ -1,0 +1,81 @@
+﻿#map {
+  height: 100%;
+  width: 80%;
+  float:left;
+}
+ 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+	margin:left auto;
+	width:100%;
+	height:110px;
+	background-image:url(header.png);
+}
+
+.controls {
+  margin-top: 0px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#origin-input,
+#destination-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+#origin-input:focus,
+#destination-input:focus {
+  border-color: #4d90fe;
+}
+
+#modeselector {
+  color: #fff;
+  background-color: #4d90fe;
+  margin-left: 5px;
+  padding: 5px 11px 0px 11px;
+}
+
+#modeselector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#side {
+	float:left;
+	width:170px;
+	padding-top:15px;
+}
+
+
+#footer {
+	width:100%;
+	background-color:pink;
+ 	clear:both;
+}
+
+#footer h2{
+	font-size:10px; 
+	line-height:30px;
+	color:black;
+	text-align:center;
+}
+
+
